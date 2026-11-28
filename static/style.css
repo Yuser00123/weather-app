@@ -2,4 +2,33 @@
 
 body{
     font-family: 'Climate Crisis', system-ui;
+    background-image: url('https://cdn.hackclub.com/01a220f6-9851-7876-9473-631393d855cd/__c6jPIPOHJqbzUgKfOrnLmOaiybfJzdXsQ470WGBto.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: whitesmoke;
+    height: auto;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+input{
+    width: 350px;
+    height: 40px;
+    font-family: 'Climate crisis', system-ui;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
 }
